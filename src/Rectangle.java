@@ -27,8 +27,15 @@ public class Rectangle {
         return sideA;
     }
 
+    public Rectangle() {
+    }
+
+    public Rectangle(int sideA) {
+        this.sideA = sideA;
+    }
+
     public void setSideA(int sideA) {
-        if (sideA < 0){
+        if (sideA <= 0){
             this.sideA = 0;
             System.out.println("Side A can't be negative!!");
         }

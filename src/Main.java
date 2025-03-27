@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Point p1 = new Point();
+        /*Point p1 = new Point();
         String s1 = new String( "Ali");
 
         System.out.println(p1.xCoord);
@@ -36,6 +36,6 @@ public class Main {
 
         c1.setRadius(-21);
         System.out.println(c1.getRadius());
-
+*/
     }
 }
